@@ -1,0 +1,270 @@
+id,Country,Code
+0,Aruba,ABW
+183,Afghanistan,AFG
+212,Angola,AGO
+241,Albania,ALB
+479,Arab World,
+508,United Arab Emirates,ARE
+603,Argentina,ARG
+918,Armenia,ARM
+1220,Antigua and Barbuda,ATG
+1491,Australia,AUS
+1795,Austria,AUT
+2119,Azerbaijan,AZE
+2324,Burundi,BDI
+2353,Belgium,BEL
+2668,Benin,BEN
+2697,Burkina Faso,BFA
+2726,Bangladesh,BGD
+2755,Bulgaria,BGR
+3059,Bahrain,BHR
+3286,"Bahamas, The",
+3315,Bosnia and Herzegovina,BIH
+3366,Belarus,BLR
+3626,Belize,BLZ
+3930,Bermuda,
+3959,Bolivia,BOL
+3988,Brazil,BRA
+4303,Barbados,BRB
+4552,Brunei Darussalam,
+4581,Bhutan,BTN
+4610,Botswana,BWA
+4639,Central African Republic,CAF
+4668,Canada,CAN
+4961,Central Europe and the Baltics,
+4990,Switzerland,CHE
+5250,Chile,CHL
+5565,China,CHN
+5594,Cote d'Ivoire,CIV
+5623,Cameroon,CMR
+5652,"Congo, Dem. Rep.",
+5681,"Congo, Rep.",
+5710,Colombia,COL
+6025,Comoros,COM
+6054,Cabo Verde,
+6094,Costa Rica,CRI
+6398,Caribbean small states,
+6427,Curacao,
+6456,Cayman Islands,
+6485,Cyprus,CYP
+6677,Czech Republic,
+7001,Germany,DEU
+7316,Djibouti,DJI
+7345,Dominica,
+7374,Denmark,DNK
+7645,Dominican Republic,DOM
+7674,Algeria,DZA
+7703,East Asia & Pacific (excluding high income),
+7732,Early-demographic dividend,
+7761,East Asia & Pacific,
+7790,Europe & Central Asia (excluding high income),
+7819,Europe & Central Asia,
+7848,Ecuador,ECU
+8163,"Egypt, Arab Rep.",
+8192,Euro area,
+8221,Eritrea,ERI
+8250,Spain,ESP
+8565,Estonia,EST
+8825,Ethiopia,ETH
+8854,European Union,
+8883,Fragile and conflict affected situations,
+8912,Finland,FIN
+9227,Fiji,FJI
+9377,France,FRA
+9681,Faroe Islands,
+9710,"Micronesia, Fed. Sts.",
+9739,Gabon,GAB
+9768,United Kingdom,GBR
+10083,Georgia,GEO
+10354,Ghana,GHA
+10383,Gibraltar,
+10412,Guinea,GIN
+10441,"Gambia, The",
+10470,Guinea-Bissau,GNB
+10499,Equatorial Guinea,GNQ
+10528,Greece,GRC
+10843,Grenada,GRD
+11123,Greenland,
+11152,Guatemala,GTM
+11467,Guam,GUM
+11496,Guyana,GUY
+11778,High income,
+11807,"Hong Kong SAR, China",
+11836,Honduras,HND
+11865,Heavily indebted poor countries (HIPC),
+11894,Croatia,HRV
+12163,Haiti,HTI
+12192,Hungary,HUN
+12505,IBRD only,
+12534,IDA & IBRD total,
+12563,IDA total,
+12592,IDA blend,
+12621,Indonesia,IDN
+12650,IDA only,
+12679,Isle of Man,
+12708,India,IND
+12737,Not classified,
+12766,Ireland,IRL
+13070,"Iran, Islamic Rep.",
+13099,Iraq,IRQ
+13128,Iceland,ISL
+13452,Israel,ISR
+13767,Italy,ITA
+14082,Jamaica,JAM
+14243,Jordan,JOR
+14272,Japan,JPN
+14587,Kazakhstan,KAZ
+14902,Kenya,KEN
+14931,Kyrgyz Republic,
+14960,Cambodia,KHM
+14989,Kiribati,KIR
+15139,St. Kitts and Nevis,
+15168,"Korea, Rep.",
+15197,Kuwait,KWT
+15468,Latin America & Caribbean (excluding high income),
+15497,Lao PDR,
+15526,Lebanon,LBN
+15555,Liberia,LBR
+15584,Libya,LBY
+15613,St. Lucia,
+15642,Latin America & Caribbean,
+15671,Least developed countries: UN classification,
+15700,Low income,
+15729,Liechtenstein,
+15758,Sri Lanka,LKA
+15886,Lower middle income,
+15915,Low & middle income,
+15944,Lesotho,LSO
+15973,Late-demographic dividend,
+16002,Lithuania,LTU
+16271,Luxembourg,LUX
+16586,Latvia,LVA
+16846,"Macao SAR, China",
+16875,St. Martin (French part),
+16904,Morocco,MAR
+16933,Monaco,
+16962,Moldova,MDA
+16991,Madagascar,MDG
+17020,Maldives,MDV
+17159,Middle East & North Africa,
+17188,Mexico,MEX
+17503,Marshall Islands,
+17532,Middle income,
+17561,North Macedonia,MKD
+17590,Mali,MLI
+17619,Malta,MLT
+17934,Myanmar,MMR
+17963,Middle East & North Africa (excluding high income),
+17992,Montenegro,
+18131,Mongolia,MNG
+18169,Northern Mariana Islands,
+18198,Mozambique,MOZ
+18227,Mauritania,MRT
+18256,Mauritius,MUS
+18580,Malawi,MWI
+18609,Malaysia,MYS
+18638,North America,
+18667,Namibia,NAM
+18696,New Caledonia,NCL
+18725,Niger,NER
+18754,Nigeria,NGA
+18783,Nicaragua,NIC
+18878,Netherlands,NLD
+19202,Norway,NOR
+19517,Nepal,NPL
+19546,Nauru,
+19575,New Zealand,NZL
+19868,OECD members,
+19897,Oman,OMN
+19959,Other small states,
+19988,Pakistan,PAK
+20017,Panama,PAN
+20266,Peru,PER
+20295,Philippines,PHL
+20489,Palau,
+20518,Papua New Guinea,PNG
+20547,Poland,POL
+20840,Pre-demographic dividend,
+20869,Puerto Rico,PRI
+21184,"Korea, Dem. People?s Rep.",
+21213,Portugal,PRT
+21484,Paraguay,PRY
+21766,West Bank and Gaza,
+21795,Pacific island small states,
+21824,Post-demographic dividend,
+21853,French Polynesia,PYF
+21882,Qatar,QAT
+22074,Romania,ROU
+22398,Russian Federation,
+22713,Rwanda,RWA
+22742,South Asia,
+22771,Saudi Arabia,SAU
+22800,Sudan,SDN
+22829,Senegal,SEN
+22858,Singapore,SGP
+23173,Solomon Islands,SLB
+23202,Sierra Leone,SLE
+23231,El Salvador,SLV
+23524,San Marino,
+23586,Somalia,SOM
+23615,Serbia,
+23842,Sub-Saharan Africa (excluding high income),
+23871,South Sudan,
+23900,Sub-Saharan Africa,
+23929,Small states,
+23958,Sao Tome and Principe,STP
+23987,Suriname,SUR
+24269,Slovak Republic,
+24298,Slovenia,SVN
+24558,Sweden,SWE
+24882,Eswatini,SWZ
+24911,Sint Maarten (Dutch part),
+24940,Seychelles,SYC
+25134,Syrian Arab Republic,
+25163,Turks and Caicos Islands,
+25192,Chad,TCD
+25221,East Asia & Pacific (IDA & IBRD countries),
+25250,Europe & Central Asia (IDA & IBRD countries),
+25279,Togo,TGO
+25308,Thailand,THA
+25610,Tajikistan,TJK
+25639,Turkmenistan,TKM
+25954,Latin America & the Caribbean (IDA & IBRD countries),
+25983,Timor-Leste,
+26012,Middle East & North Africa (IDA & IBRD countries),
+26041,Tonga,TON
+26070,South Asia (IDA & IBRD),
+26099,Sub-Saharan Africa (IDA & IBRD countries),
+26128,Trinidad and Tobago,TTO
+26399,Tunisia,TUN
+26428,Turkey,TUR
+26534,Tuvalu,
+26563,Tanzania,TZA
+26592,Uganda,UGA
+26621,Ukraine,UKR
+26925,Upper middle income,
+26954,Uruguay,URY
+27236,United States,USA
+27551,Uzbekistan,UZB
+27822,St. Vincent and the Grenadines,
+27851,"Venezuela, RB",
+27880,British Virgin Islands,
+27909,Virgin Islands (U.S.),
+27938,Vietnam,VNM
+27967,Vanuatu,VUT
+27996,World,OWID_WRL
+28025,Samoa,WSM
+28054,Kosovo,
+28083,"Yemen, Rep.",
+28112,South Africa,ZAF
+28361,Zambia,ZMB
+28390,Zimbabwe,ZWE
+28695,Bahamas,
+29523,Cuba,
+30543,Kyrgyzstan,KGZ
+30915,Macau,
+31503,Republic of Korea,
+31899,Saint Kitts and Nevis,
+31935,Saint Lucia,
+32271,Saint Vincent and Grenadines,
+32667,Slovakia,
