@@ -16,7 +16,7 @@ and stores it into Postgres.
 
 #### Pipelines structure:
 
-<img src="https://github.com/kinfi4/ELT-for-gathering-suicide-and-internet-usage-stats/blob/master/docs/screenshots/pipelines-structure.png?raw=true" width="60%">
+<img src="https://github.com/kinfi4/ELT-for-gathering-suicide-and-internet-usage-stats/blob/master/docs/screenshots/pipelines-structure.png?raw=true">
 
 
 
