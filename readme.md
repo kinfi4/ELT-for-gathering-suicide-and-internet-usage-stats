@@ -1,4 +1,4 @@
-### Airflow ETL pipeline for gathering and storing data from Kaggle
+### Airflow ETL pipeline for gathering and storing data from Kaggle   
 
 This pipelines is a good example of ETL pipeline using Airflow framework.  
 Processing is done using pandas library, which is not a perfect choice for working with large datasets,
@@ -14,6 +14,7 @@ and stores it into Postgres.
 
 #### Pipelines structure:
 
+    <img src="https://github.com/kinfi4/ELT-for-gathering-suicide-and-internet-usage-stats/blob/master/docs/screenshots/pipelines-structure.png?raw=true" width="60%">
 
 
 
@@ -32,3 +33,6 @@ and stores it into Postgres.
                 -- data-lake
                 -- processing-storage
                 -- processed-data
+
+-----------------------------------------------
+@kinfi4
