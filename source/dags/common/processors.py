@@ -29,7 +29,7 @@ def process_gdp_data(input_file_path: str, destination_folder_path: str, output_
     print(f'\n{result.head()}')
 
     destination_path = os.path.join(destination_folder_path, output_file_name)
-    result.to_csv(destination_path, index=False)
+    result.to_csv(destination_path, index_label='id', index=True)
 
 
 def process_internet_data(input_file_path: str, destination_folder_path: str, output_file_name: str):
@@ -44,7 +44,7 @@ def process_internet_data(input_file_path: str, destination_folder_path: str, ou
     print(f'\n{df.head()}')
 
     destination_path = os.path.join(destination_folder_path, output_file_name)
-    df.to_csv(destination_path, index=False)
+    df.to_csv(destination_path, index_label='id', index=True)
 
 
 def process_suicide_data(input_file_path: str, destination_folder_path: str, output_file_name: str):
@@ -63,13 +63,17 @@ def process_suicide_data(input_file_path: str, destination_folder_path: str, out
     print(f'\n{df.head()}')
 
     destination_path = os.path.join(destination_folder_path, output_file_name)
-    df.to_csv(destination_path, index=False)
+    df.to_csv(destination_path, index_label='id', index=True)
 
 
 def process_data(gdp_file_path: str, suicide_file_path: str, internet_file_path: str, output_folder_path: str):
     suicide = pd.read_csv(suicide_file_path)
     gdp = pd.read_csv(gdp_file_path)
     internet = pd.read_csv(internet_file_path)
+
+    suicide = suicide.drop(columns=['id'])
+    gdp = gdp.drop(columns=['id'])
+    internet = internet.drop(columns=['id'])
 
     result = pd.merge(gdp, suicide, how='outer', on=['Country', 'Year'])
 

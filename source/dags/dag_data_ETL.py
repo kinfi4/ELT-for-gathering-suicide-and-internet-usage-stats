@@ -76,6 +76,39 @@ with DAG(
         op_kwargs={'output_file_name': const.SUICIDE_STATS_FILE_NAME}
     )
 
+    load_suicide_raw_data_to_stage_zone_op = CsvToPostgresOperator(
+        task_id='load_suicide_raw_data_to_stage_zone',
+        db_name=conf.POSTGRES_DB_NAME,
+        host=conf.POSTGRES_HOST,
+        port=conf.POSTGRES_PORT,
+        postgres_username=conf.POSTGRES_USERNAME,
+        postgres_password=conf.POSTGRES_PASSWORD,
+        csv_file_path=os.path.join(conf.PROCESSING_FOLDER_PATH, const.SUICIDE_STATS_FILE_NAME),
+        destination_table_id='suicide_data_raw'
+    )
+
+    load_gdp_raw_data_to_stage_zone_op = CsvToPostgresOperator(
+        task_id='load_gdp_raw_data_to_stage_zone',
+        db_name=conf.POSTGRES_DB_NAME,
+        host=conf.POSTGRES_HOST,
+        port=conf.POSTGRES_PORT,
+        postgres_username=conf.POSTGRES_USERNAME,
+        postgres_password=conf.POSTGRES_PASSWORD,
+        csv_file_path=os.path.join(conf.PROCESSING_FOLDER_PATH, const.GDP_STATS_FILE_NAME),
+        destination_table_id='country_data_raw'
+    )
+
+    load_internet_usage_raw_data_to_stage_zone_op = CsvToPostgresOperator(
+        task_id='load_internet_usage_raw_data_to_stage_zone',
+        db_name=conf.POSTGRES_DB_NAME,
+        host=conf.POSTGRES_HOST,
+        port=conf.POSTGRES_PORT,
+        postgres_username=conf.POSTGRES_USERNAME,
+        postgres_password=conf.POSTGRES_PASSWORD,
+        csv_file_path=os.path.join(conf.PROCESSING_FOLDER_PATH, const.INTERNET_STATS_FILE_NAME),
+        destination_table_id='internet_usage_data_raw'
+    )
+
     process_data_op = PythonOperator(
         task_id='process_data',
         python_callable=process_data,
@@ -164,9 +197,9 @@ with DAG(
         destination_table_id='people_depending_facts'
     )
 
-    download_and_unzip_internet_usage_stats_op >> preprocess_internet_usage_data_op >> process_data_op
-    download_and_unzip_gdp_stats_op >> preprocess_gdp_data_op >> process_data_op
-    download_and_unzip_suicide_stats_op >> preprocess_suicide_data_op >> process_data_op
+    download_and_unzip_internet_usage_stats_op >> preprocess_internet_usage_data_op >> load_internet_usage_raw_data_to_stage_zone_op >> process_data_op
+    download_and_unzip_gdp_stats_op >> preprocess_gdp_data_op >> load_gdp_raw_data_to_stage_zone_op >> process_data_op
+    download_and_unzip_suicide_stats_op >> preprocess_suicide_data_op >> load_suicide_raw_data_to_stage_zone_op >> process_data_op
 
     process_data_op >> [
         load_country_data_op, load_years_data_op, load_sex_data_op, load_generations_data_op, load_age_category_data_op
